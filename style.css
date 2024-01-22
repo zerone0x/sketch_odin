@@ -1,0 +1,43 @@
+.grid,.gridcell{
+    
+    border: 0.5px solid black;
+
+    min-width: 15px;
+    min-height: 15px;
+    /* max-width: 40px;
+    max-height: 40px; */
+    /* flex: 0,0,0; */
+    /* aspect-ratio: 1 / 1;  */
+    /* max-width: 30px; */
+}
+.gridcell:hover{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+body{
+    margin: 0;
+    padding: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    flex-direction: column;
+}
+
+/* .grid-{
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 40px;
+    max-height: 40px;
+    /* flex: 0,0,0; */
+    /* aspect-ratio: 1 / 1;  */
+    /* max-width: 30px; */
